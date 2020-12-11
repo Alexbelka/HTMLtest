@@ -54,8 +54,8 @@ function Server(){
     server.init({server:"./",browser:'chrome'});
     gulp.watch('src/scss/**/*.scss',gulp.series(Sass));
     gulp.watch('index.html').on('change',server.reload);
+    gulp.watch('inner.html').on('change',server.reload);
 }
-
 
 
 exports.start = series(Sass,Svg,Images,JS,Server);

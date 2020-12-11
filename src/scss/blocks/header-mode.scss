@@ -1,0 +1,19 @@
+.header-mode{
+  display: none;
+}
+
+@media(min-width: 1440px){
+  .header-mode{
+    display: flex;
+    margin-left: (127/1440)*100%;
+  }
+
+  .header-mode__item:nth-child(2),
+  .header-mode__item:nth-child(3){
+    margin-left: 20px;
+  }
+
+  .header-mode__item a{
+    color:rgb(255,255,255);
+  }
+}

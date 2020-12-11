@@ -1,0 +1,66 @@
+.header-container{
+  height: 36px;
+  display: flex;
+  align-items:flex-end;
+  overflow: visible;
+}
+
+.header-container-ref{
+  display: block;
+}
+
+.header-burger{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18px;
+  width:26px;
+  margin-left: auto;
+  background-color: transparent;
+  outline: none;
+  border:none;
+  margin-bottom: 3px;
+}
+
+.header-burger__line{
+  display: block;
+  width:100%;
+  height: 1px;
+  background-color: rgb(255,255,255);
+}
+
+.header-year{
+  margin-left:7px;
+}
+
+.header-BigYear{
+  display: none;
+}
+
+.header-phone{
+  margin-left: 96px;
+  margin-bottom:3px;
+}
+
+@media(min-width: 1440px){
+  .header-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-container-ref{
+    height: inherit;
+  }
+
+  .header-year,
+  .header-burger,
+  .header-phone{
+    display: none;
+  }
+
+  .header-BigYear{
+    display: block;
+  }
+
+}

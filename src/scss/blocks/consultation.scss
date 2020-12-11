@@ -1,0 +1,130 @@
+.consultation{
+  min-height: 263px;
+  position:relative;
+  border-top:1px solid rgba(0,0,0,0.2);
+  padding: 0;
+}
+
+
+.consultation__state{
+  font-weight: 700;
+  font-size: 46px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(rgb(211,65,65),rgb(131,19,19));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+
+.consultation__background{
+  width: 193px;
+  height: 179px;
+  position: absolute;
+  left: 0;
+  top:0;
+  background-color: rgb(227,227,227);
+  z-index: -2;
+
+  img{
+  margin-top: 69px;
+  }
+
+}
+
+.consultation__background--photo{
+  min-height: 199px;
+  width: 144px;
+  background: url('../../build/img/workplace.jpg');
+  background-size: cover;
+  position:absolute;
+  left:0;
+  top:63px;
+  z-index: -1;
+}
+
+  .inner-page .consultation{
+    min-height: 475px;
+    }
+
+  .inner-page .consultation__background{
+    min-height: inherit;
+    display: flex;
+    align-items: flex-end;
+  img {
+    margin:0;
+  }
+  }
+
+  .inner-page .consultation__state{
+    font-size: 36px;
+    line-height: 41px;
+    text-align: right;
+    margin-top: 54px;
+  }
+
+  .inner-page .consultation-suggest{
+    margin-top:45px;
+  }
+
+.inner-page .consultation-suggest__person {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: rgba(0, 0, 0, 0.48);
+  margin-left: 45px;
+  margin-top: 160px;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+@media (min-width:1440px) {
+  .consultation {
+    min-height: 667px;
+    background: url('../../build/img/A.png') no-repeat 1290px 240px,
+    url('../../build/img/MAGISTR.png') no-repeat 725px 460px;
+  }
+
+  .consultation__state {
+    font-size: 95px;
+    line-height: 115px;
+    text-align: right;
+    margin-top: 30px;
+  }
+
+  .consultation__background {
+    display: block;
+    height: 100%;
+    width: 50%;
+
+    img {
+      margin: 0;
+      height: 100%;
+    }
+  }
+
+
+
+  .inner-page .consultation {
+    min-height: 749px;
+  }
+
+  .inner-page .consultation__state {
+    font-size: 100px;
+    line-height: 115px;
+    text-align: right;
+    margin-top: 129px;
+  }
+
+  .inner-page .consultation__background {
+    justify-content: flex-end;
+
+    img {
+      margin: 0;
+    }
+  }
+
+}

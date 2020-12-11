@@ -1,0 +1,12 @@
+.main{
+  width: 375px;
+  margin: auto;
+}
+
+@media(min-width: 1440px){
+  .main{
+    width:1440px;
+    padding: 0 25px 0;
+  }
+}
+

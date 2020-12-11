@@ -1,0 +1,25 @@
+.mode-education{
+  background-color: rgb(255,255,255);
+  padding: 0 15px 0;
+  min-height:52px;
+  display: flex;
+  align-items: center;
+}
+
+.mode-education__state{
+  font-size:28px;
+  font-weight: 600;
+}
+
+
+@media(min-height: 1440px){
+  .mode-education{
+    min-height: 80px;
+  }
+
+  .mode-education__state{
+    font-size: 50px;
+    line-height: 52px;
+  }
+
+}

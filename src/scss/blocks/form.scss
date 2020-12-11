@@ -1,0 +1,24 @@
+.form{
+  width: 375px;
+  margin:auto;
+  padding: 15px 15px 0;
+}
+
+.form__state{
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 19px;
+  margin-bottom: 12px;
+}
+
+@media(min-width: 1440px){
+  .form{
+    width: 100%;
+    padding: 50px 25px 0;
+  }
+  .form__state{
+    font-size: 40px;
+    line-height: 42px;
+  }
+}

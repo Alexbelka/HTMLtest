@@ -1,0 +1,60 @@
+.form-form {
+  padding: 0 10px 0;
+}
+
+  .form-form__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  label{
+    display: block;
+    width: 30%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .check-radio{
+    width: 15px;
+    height: 16px;
+    position:absolute;
+    background:url('../svg/Ellipse 95.svg');
+    left:5px;
+    top:50%;
+    transform: translateY(-50%);
+    cursor:pointer;
+  }
+
+  .check__input:checked + .check-radio{
+    background:url('../svg/Ellipse 96.svg'),
+  }
+
+
+@media(min-width:1440px){
+  .form-form {
+    width: 782px;
+    padding: 0;
+    margin: 45px auto 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-form .form-form__container{
+    width: 50%;
+  }
+
+  .form-form__container label{
+    height:100%;
+    width: 33%;
+    margin: 0;
+  }
+
+}

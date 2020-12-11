@@ -1,0 +1,10 @@
+.header-navigation{
+  min-height: 27px;
+  margin-top: 16px;
+}
+
+@media(min-width: 1440px){
+  .header-navigation{
+    margin-top: 25px;
+  }
+}
