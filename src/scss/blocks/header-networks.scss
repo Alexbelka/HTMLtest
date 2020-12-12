@@ -14,6 +14,7 @@
   .header-networks{
     display: flex;
     margin-left: (97/1440)*100%;
+    margin-bottom: 10px;
   }
 
   .header-networks__item:nth-child(2),
@@ -32,6 +33,7 @@
     text-decoration: underline;
     color:rgb(255,255,255);
     margin-left: (52/1440)*100%;
+    margin-bottom: 15px;
   }
 
 
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     color:rgb(255,255,255);
     margin-left:(30/1440)*100%;
+    margin-bottom: 13px;
   }
 
 

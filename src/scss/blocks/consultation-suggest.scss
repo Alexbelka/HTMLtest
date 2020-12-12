@@ -40,7 +40,9 @@
   margin-top:42px;
 }
 
-
+.vectors{
+  display: none;
+}
 
 //.inner-page{
 //  margin-top: ;
@@ -79,6 +81,12 @@
    br {
      display: block;
    }
+  }
+
+  .vectors{
+    display: block;
+    margin-top: 460px;
+    margin-left: 5px;
   }
 
 }

@@ -81,8 +81,9 @@
   }
 }
 
+
 @media (min-width:1440px) {
-  .consultation {
+  .main-page .consultation {
     min-height: 667px;
     background: url('../../build/img/A.png') no-repeat 1290px 240px,
     url('../../build/img/MAGISTR.png') no-repeat 725px 460px;
@@ -106,10 +107,23 @@
     }
   }
 
-
-
   .inner-page .consultation {
     min-height: 749px;
+    position: relative;
+    background:url('../../build/img/MAGISTR.png') no-repeat 775px 550px;
+  }
+
+  .consultation-backText{
+    position: absolute;
+    font-size:150px;
+    line-height: 172px;
+    text-transform: uppercase;
+    background: linear-gradient(rgba(255,255,255,1),rgba(200,200,200,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+    top:320px;
+    left:-180px;
   }
 
   .inner-page .consultation__state {
@@ -124,6 +138,21 @@
 
     img {
       margin: 0;
+    }
+  }
+
+
+  .inner-page .consultation-suggest__person {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.48);
+    margin-left: -675px;
+    margin-top: -260px;
+
+    span {
+      font-weight: 600;
+      line-height: 16px;
     }
   }
 
